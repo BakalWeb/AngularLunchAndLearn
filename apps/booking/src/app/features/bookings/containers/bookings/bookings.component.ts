@@ -2,6 +2,7 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 import { BookingService } from '@core/services/booking.service';
 import { Booking } from '@core/interfaces/booking.interface';
 import { MatTableDataSource, MatSort, MatPaginator } from '@angular/material';
+import * as moment from 'moment';
 
 @Component({
   selector: 'app-bookings',
@@ -43,11 +44,9 @@ export class BookingsComponent implements OnInit {
   }
 
   generateDashboardData(): void {
+    const now = moment();
     this.bookingsMadeToday = this.bookings.filter(
-      x =>
-        x.created.getMonth() === new Date().getMonth() &&
-        x.created.getFullYear() === new Date().getFullYear() &&
-        x.created.getDate() === new Date().getDate()
+      x => moment(x.created).isSameOrAfter(now, 'day')
     ).length;
   }
 }
