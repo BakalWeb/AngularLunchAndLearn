@@ -1,6 +1,6 @@
-import { ISidebarMenuItem } from '@core/interfaces/sidebar-menu-item';
+import { SidebarMenuItem } from '@core/interfaces/sidebar-menu-item.interface';
 
-export const SideBarMenuItems: ISidebarMenuItem[] = [
+export const SideBarMenuItems: SidebarMenuItem[] = [
   {
     display: 'Dashboard',
     icon: 'home',
@@ -12,5 +12,5 @@ export const SideBarMenuItems: ISidebarMenuItem[] = [
     icon: 'calendar_view_day',
     index: 0,
     routerLink: 'bookings'
-  },
+  }
 ];

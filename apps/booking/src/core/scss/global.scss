@@ -29,6 +29,13 @@ body {
 box-shadow: 4px 7px 17px -3px rgba(0,0,0,0.53);
 border-radius: 3px;
 
+.feature-number {
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #a9afbb;
+}
+
   h2 {
     margin: -40px auto 10px auto;
     background: blue; /* highlights missed feature-box-[color] classes */
