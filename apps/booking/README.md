@@ -51,4 +51,14 @@ This is obviously your preference but personally I prefer to use Visual Studio C
 
 # Lunch & Learn Objectives
 
-* 
+* Project structure
+* Brief Angular CLI introduction
+*	Deep dive into code:
+    *	Create a new feature
+        * Components (smart (APPLICATION LEVEL) & dumb (PRESENTATIONAL))Routing
+        * Core/Shared
+        *	Lazy loading    
+* In memory api discussion
+*	Dependency injection
+*	Services
+
