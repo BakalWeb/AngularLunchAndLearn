@@ -55,7 +55,8 @@ This is obviously your preference but personally I prefer to use Visual Studio C
 * Brief Angular CLI introduction
 *	Deep dive into code:
     *	Create a new feature
-        * Components (smart (APPLICATION LEVEL) & dumb (PRESENTATIONAL))Routing
+        * Components (smart (APPLICATION LEVEL) & dumb (PRESENTATIONAL))
+        * Routing
         * Core/Shared
         *	Lazy loading    
 * In memory api discussion
